@@ -20,7 +20,7 @@ request(URL, (error, response, body) => {
       console.error(err);
       return;
     }
-    //file written successfully
+    console.log('file written successfully');
   });
   
 });
